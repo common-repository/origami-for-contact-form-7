@@ -1,0 +1,37 @@
+/* Flex container for origami and CF7 form */
+.origami-cf7-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; /* Add space between form and origami */
+}
+
+/* Style for the CF7 form container */
+.cf7-form-container {
+    margin-right: 20px; /* Space between form and origami */
+    flex-grow: 1; /* Allow the form to take up available space */
+}
+
+/* Style for the origami container */
+#origami-container {
+    margin-left: 20px; /* Space between form and origami */
+    width: 200px; /* Set a fixed width for the origami display */
+    order: 2; /* Ensure the origami appears after the form */
+}
+
+/* Style for the origami step image */
+#origami-step-image {
+    width: 100%; /* Make sure the image takes the full width of the container */
+    height: 250px; /* Set a fixed height for the image display */
+    background-position: center; /* Center the image within the container */
+    background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: contain; /* Ensure the entire image fits within the container without cropping */
+	
+}
+
+.origami-caption {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
